@@ -1,0 +1,21 @@
+{
+  "name": "alfred-translator",
+  "version": "1.0.0",
+  "description": "Translate in Google easily",
+  "homepage": "https://github.com/HaitianLiu/alfred-translator",
+  "main": "index.js",
+  "scripts": {
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+	},
+  "author": {
+		"name": "Simon Liu",
+		"email": "wantedliu@gmail.com",
+		"url": "https://simonliu.me"
+	},
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.8.0",
+    "translation.js": "^0.7.5"
+  }
+}
